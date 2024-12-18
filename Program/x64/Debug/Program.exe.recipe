@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>C:\Users\test1\Desktop\algorithm\Program\x64\Debug\Class6th (Euclidean).exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>C:\Users\test1\Desktop\algorithm\Program\x64\Debug\Program.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
