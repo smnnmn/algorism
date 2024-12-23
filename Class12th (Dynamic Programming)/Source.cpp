@@ -2,7 +2,7 @@
 
 using namespace std;
 
-#define SIZE 100001
+#define SIZE 1001
 
 
 int Fibonacci(int list[], int n)
