@@ -9,7 +9,7 @@ class Graph
 {
 private:
     bool visited[SIZE];
-    vector<int> graph[SIZE];
+    vector<int> parent[SIZE];
 public:
     Graph()
     {
@@ -21,8 +21,8 @@ public:
 
     void InsertEdge(int vertex, int edge)
     {
-        graph[vertex].push_back(edge);
-        graph[edge].push_back(vertex);
+        parent[vertex].push_back(edge);
+        parent[edge].push_back(vertex);
     }
 
     void DFS(int start)
@@ -34,10 +34,10 @@ public:
         cout << start << " ";
 
         // 현재 노드와 연결된 다른 노드를 재귀적으로 방문합니다.
-        for (int i = 0; i < graph[start].size(); i++)
+        for (int i = 0; i < parent[start].size(); i++)
         {
             // 현재 노드와 연결된 다음 노드를 가져옵니다.
-            int next = graph[start][i];
+            int next = parent[start][i];
 
             if (visited[next] == false)
             {
