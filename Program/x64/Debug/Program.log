@@ -1,2 +1,3 @@
 ﻿  Program.cpp
+C:\Users\test1\Desktop\algorithm\Program\Program.cpp(44): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
   Program.vcxproj -> C:\Users\test1\Desktop\algorithm\Program\x64\Debug\Program.exe
